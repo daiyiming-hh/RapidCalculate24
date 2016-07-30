@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>速算24</title>
+		<link rel="stylesheet" type="text/css" href="./style/index.css">
+		<script type="text/javascript" src="./script/device.min.js"></script>
+		<script type="text/javascript" src="./script/Calculate24.js"></script>
+		<script type="text/javascript" src="./script/Timer.js"></script>
+		<script type="text/javascript" src="./script/NotificationDialog.js"></script>
+		<script type="text/javascript" src="./script/index.js"></script>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+	</head>
+	<body>
+		<div class="header"></div>
+		<div class="div_top">
+			<div id="div_delete"><div class="div_delete_icon"></div></div>
+			<div id="div_input_box"></div>
+			<div class="main_control_group">
+				<div id="div_next">
+					<div class="div_ic"></div>
+				</div>
+				<div id="div_sure">
+					<div class="div_ic"></div>
+				</div>
+			</div>
+			<div class="div_operation_symbol">
+				<div class="div_symbol" id="div_symbol1">(</div>
+				<div class="div_symbol" id="div_symbol2">)</div>
+				<div class="div_symbol" id="div_symbol3">+</div>
+				<div class="div_symbol" id="div_symbol4">-</div>
+				<div class="div_symbol" id="div_symbol5">×</div>
+				<div class="div_symbol" id="div_symbol6">÷</div>
+			</div>
+		</div>	
+
+		<div class="div_bottom">
+			<div class="div_num" id="div_num1"></div>
+			<div class="div_num" id="div_num2"></div>
+			<div class="div_num" id="div_num3"></div>
+			<div class="div_num" id="div_num4"></div>
+		</div>
+
+		<div id="div_timer">00:00</div>
+
+		<div id="div_dialog">
+			<div class="div_shadow"></div>
+			<div class="div_content">
+				<div class="div_title">游戏教程</div>
+				<div class="div_text">
+					每轮游戏将随机产生四个数字，玩家需要将这四个数字利用四则运算得到24即为胜利。玩家通过和使用计算器一样的方式操作游戏，确认可以得到正确结果时点击确认获得分数并进入下一关。
+				</div>
+				<div id="div_begin">
+					开始游戏
+				</div>
+			</div>
+		</div>
+
+		<div id="div_notification">
+			<div class="div_shadow"></div>
+			<div class="div_content">
+				<div id="div_text">1231231231</div>
+				<div id="div_button">1231231</div>
+			</div>
+		</div>
+
+	</body>
+</html>
